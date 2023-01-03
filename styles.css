@@ -48,7 +48,6 @@ h1 {
 .container {
     display: grid;
     grid-template-areas: ".";
-    /* justify-content: center; */
 }
 .added-list {
     border: thin solid black;
