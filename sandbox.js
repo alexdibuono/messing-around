@@ -23,7 +23,8 @@ let counter = 0;
 const addNewFunc = event => {
 
     if(counter === 0){
-        emptyClass.style.display = 'none';
+        // emptyClass.style.display = 'none';
+        container.innerHTML = ``;
     }
 
     if(addNewForm.name.value != ''){

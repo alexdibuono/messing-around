@@ -5,26 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Classroom App</title>
     <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+
 <body>
-    <h1 class="title">Alex's Classrooms</h1>
-    <div class="container">
-        <!-- Added classrooms will show up here -->
-    </div>
-    <br>
-    <button class="add-new-button">Add Classroom</button>
-    <div class="popup-wrapper">
-        <div class="popup">
-            <div class="add-content">
-                <h2>Enter Classroom Name:</h2>
-                <form class="add-new-form">
-                    <input type="text" placeholder="Enter Name Here" id="name">
-                    <br><br>
-                    <input type="submit" id="enter-button">
-                    <button class="cancel-button" type="reset">Cancel</button>
-                </form>
+
+    <section id="header">
+        <h1 class="title">Alex's Classrooms</h1>
+        <!-- <h2>Teacher Name</h2> -->
+    </section>
+
+    <section id="students">
+        <div class="container">
+            <div>
+                <em class="empty-class">No classrooms have been added yet.</em>
+            </div>
+            <!-- Added students will show up here -->
+        </div>
+        <br>
+        <button class="add-new-button">Add Classroom</button>
+        <div class="popup-wrapper">
+            <div class="popup">
+                <div class="add-content">
+                    <h2>Enter Classroom Name:</h2>
+                    <form class="add-new-form">
+                        <input type="text" placeholder="Enter Name Here" id="name">
+                        <br><br>
+                        <input type="submit" id="enter-button">
+                        <button class="cancel-button" type="reset">Cancel</button>
+                    </form>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- <button class="remove">Remove Student</button> -->
 
     <script src="sandbox.js"></script>
